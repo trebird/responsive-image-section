@@ -44,6 +44,9 @@ a {
   border-radius: 4px;
 }
 
+a:hover {
+  background-color: #000;
+}
 
 .img-flex {
   display: block;
@@ -63,9 +66,9 @@ a {
 @media only screen and (min-width: 38em) {
 
   html {
-  font-size: 110%;
-  line-height: 1.4;
-}
+    font-size: 110%;
+    line-height: 1.4;
+  }
 
   h1 {
     margin-bottom: 1.4rem;
@@ -85,7 +88,6 @@ a {
     width: 48%;
     margin-top: 1rem;
     margin-bottom: 1.4rem;
-
   }
 
   .img-flex {
@@ -101,17 +103,38 @@ a {
 @media only screen and (min-width: 60em) {
 
   html {
-  font-size: 120%;
-  line-height: 1.5;
-}
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  div {
+    margin-top: 3rem;
+  }
+
+  .img-flex {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
 
 }
-
 
 @media only screen and (min-width: 90em) {
 
   html {
-  font-size: 130%;
-}
+    font-size: 130%;
+  }
+
+  body {
+    text-align: center;
+    background-color: #e2e2e2;
+  }
+
+  section {
+    max-width: 75%;
+  }
+
+  section div {
+    text-align: left;
+  }
 
 }
